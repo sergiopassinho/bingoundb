@@ -75,10 +75,10 @@ sortearButton.addEventListener("click", function () {
     else {
 
         // console.log(numeros50[contador])
-        numerosSorteados.push(numeroSorteado);
-        sorteioDisplay.textContent = numeroSorteado
         contador++
+        numerosSorteados.push(numeroSorteado);
     }
+    sorteioDisplay.textContent = numeroSorteado
 })
 
 function openModal(mn) {
